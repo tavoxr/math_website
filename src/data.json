@@ -1,0 +1,141 @@
+[
+  {
+    "id_tema": "101",
+    "curso": "Precálculo",
+    "tema": "Funciones Compuestas",
+    "logo": "https://i.postimg.cc/qgj6Ybq9/funciones.png",
+    "subtemas": [
+      {
+        "id": "1001",
+        "name": "Composicion de funciones",
+        "url": "https://www.youtube.com/watch?v=Qw9GTgSv_94"
+      },
+      {
+        "id": "1002",
+        "name": "Modelar con composicion de funciones",
+        "url": "https://www.youtube.com/watch?v=NTJBJrtZH1Y"
+      },
+      {
+        "id": "1003",
+        "name": "Comporbar funciones inversas por composicion",
+        "url": "https://www.youtube.com/watch?v=XpUdUtnlu84"
+      },
+      {
+        "id": "1004",
+        "name": "Funciones invertibles",
+        "url": "https://www.youtube.com/watch?v=il1MGmBhcOk"
+      },
+      { "id": "1005", "name": "" },
+      { "id": "1006", "name": "" }
+    ]
+  },
+  {
+    "id_tema": "102",
+    "curso": "Precálculo",
+    "logo": "https://i.postimg.cc/bsrSjx2d/trigonometria.png",
+    "tema": "Trigonometría",
+
+    "subtemas": [
+      {
+        "id": "1007",
+        "name": "Funciones trigonométricas inversas",
+        "url": "https://www.youtube.com/watch?v=hUuG-7_PcdY"
+      },
+      {
+        "id": "1008",
+        "name": "Ecuaciones sinusoidales",
+        "url": "https://www.youtube.com/watch?v=EDHXPDbXyKU"
+      },
+      {
+        "id": "1009",
+        "name": "Modelos sinusoidales",
+        "url": "https://www.youtube.com/watch?v=wD7_DyE3JDs"
+      },
+      {
+        "id": "1010",
+        "name": "Identidades trigonométricas",
+        "url": "https://www.youtube.com/watch?v=PbvKVSWyvpI"
+      },
+      {
+        "id": "1011",
+        "name": "Identidades de suma de ángulos",
+        "url": "https://www.youtube.com/watch?v=ligqZVldfak"
+      },
+      {
+        "id": "1012",
+        "name": "Usar identidades trigonométricas",
+        "url": "https://www.youtube.com/watch?v=6mqBASJ2d3k"
+      }
+    ]
+  },
+  {
+    "id_tema": "103",
+    "tema": "Vectores",
+    "logo": "https://i.postimg.cc/Cz2BMRj7/vectores.png",
+    "subtemas": [
+      {
+        "id": "1013",
+        "name": "Introduccion a vectores",
+        "url": "https://www.youtube.com/watch?v=IrTeyyzerjI"
+      },
+      {
+        "id": "1014",
+        "name": "Magnitud de los vectores",
+        "url": "https://www.youtube.com/watch?v=KoZ7EhjynOA"
+      },
+      {
+        "id": "1015",
+        "name": "Multiplicación escalar",
+        "url": "https://www.youtube.com/watch?v=WM_HOi0XYDo"
+      },
+      {
+        "id": "1016",
+        "name": "Vectores unitarios",
+        "url": "https://www.youtube.com/watch?v=_0iLbIf9D7w"
+      },
+      {
+        "id": "1017",
+        "name": "Forma de magnitud y dirección de los vectores",
+        "url": "https://www.youtube.com/watch?v=Wa_RyR_Kho8"
+      },
+      {
+        "id": "1018",
+        "name": "Forma de componentes de los vectores",
+        "url": "https://www.youtube.com/watch?v=bao7mYenCP4"
+      }
+    ]
+  },
+  {
+    "id_tema": "104",
+    "tema": "Números Complejos",
+    "logo": "https://i.postimg.cc/qgj6Ybq9/funciones.png",
+    "subtemas": [
+      {
+        "id": "1019",
+        "name": "Unidad imaginaria",
+        "url": "https://www.youtube.com/watch?v=Qv_bvmJJfV0"
+      },
+      {
+        "id": "1020",
+        "name": "Número complejo",
+        "url": "https://www.youtube.com/watch?v=b18Nnd5sXGk"
+      },
+      {
+        "id": "1021",
+        "name": "Potencias de la unidad imaginaria",
+        "url": "https://www.youtube.com/watch?v=Qv_bvmJJfV0"
+      },
+      {
+        "id": "1022",
+        "name": "Números imaginarios puros",
+        "url": "https://www.youtube.com/watch?v=9h-onL_bLlM"
+      },
+      {
+        "id": "1023",
+        "name": "Representación gráfica de números complejos",
+        "url": "https://www.youtube.com/watch?v=aQvmmWQlNZY"
+      },
+      { "id": "1024", "name": "" }
+    ]
+  }
+]

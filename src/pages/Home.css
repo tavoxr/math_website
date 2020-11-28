@@ -1,0 +1,111 @@
+body{
+    background: rgb(231, 231, 231);
+    margin: 0;
+    padding: 0;
+}
+
+.page-content-container{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    
+}
+
+.sidebar{
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    height: 520px;
+    top: 65px;
+    position: sticky;
+    overflow-x: hidden;
+}
+
+
+.resume-content-container{
+width: 100%;
+height: 420px;
+display: flex;
+flex-direction: column;
+overflow: scroll;
+ position: sticky;
+ top: 1px;
+ overflow-x: hidden;
+
+}
+
+
+.subjects-content-container{
+    width: 72%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.card-ul{
+    width: 100%;
+    list-style: none;
+    padding: 0 0;
+    margin: 0;
+}
+
+.card-li{
+    padding: 0;
+    list-style: none;
+}
+
+
+@media screen and (max-width: 650px) {
+
+    
+    .page-content-container{
+        margin: 10px 1% 0 3% ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        width: 85%;
+    }
+
+    .sidebar{
+        width:98%;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        height: 350px;
+        top: unset;
+        margin: 10px 0 20px 3%;
+        position: unset;
+    }
+
+
+
+    .resume-content-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        overflow: scroll;
+         position: unset;
+         top: unset;
+         overflow-y: visible;
+        
+        }
+        
+        
+        .subjects-content-container{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 20px;
+        }
+        
+}
+
+
+

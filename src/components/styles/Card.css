@@ -1,0 +1,158 @@
+.card-container{
+    width: 98%;
+    background: rgb(255, 255, 255);
+    margin: 0 0 20px 5px;
+    border:solid  1px rgb(209, 209, 209);
+}
+
+.card-container:hover{
+    box-shadow: 15px 15px 20px rgb(128, 126, 126);
+    transition: 0.3s;
+}
+
+.card-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.title-card-container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card-logo-header{
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 15px 5px 0px 10px;
+}
+
+.card-title{
+    font-weight:600;
+}
+
+.card-title:hover{
+    color: rgb(20, 136, 156);
+}
+
+.about-card-container{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.card-disponible{
+    margin: 19px 10px 0px 0px;
+}
+
+.about-card-container i {
+    color: rgb(124, 124, 124);
+    margin: 23px 15px 0px 0px;
+    
+    
+    
+}
+
+.list-subjects{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 49% 49%;
+    grid-template-rows:  1fr 1fr 1fr;
+    column-gap: 1%;
+    margin: 5px 0 15px 15px;
+    padding: 0;
+    height: 100%;
+}
+
+.subject{
+    max-width: 350px;
+    word-wrap: break-word;
+    list-style: none;
+   margin: 10px 0 0 0 ;
+}
+
+
+.subject a{
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+}
+
+.subject a:hover{
+    color: rgb(2, 159, 187);
+    font-weight: 500;
+}
+
+ 
+ .line-division{
+    background: rgb(247, 247, 247);
+    opacity: 0.6;
+    
+    
+ }
+
+
+
+ @media screen and (max-width: 650px) {
+    body {
+      background-color: lightgreen;
+    }
+    .card-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3px;
+    }
+    .title-card-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-logo-header{
+        margin: 10px 5px 0px 10px;
+    }
+    
+    .card-title{
+        font-weight:600;
+        margin: 5px 0 5px 0 ;
+    }
+
+    .about-card-container{
+        display: flex;
+        justify-content: flex-end;
+    
+    }
+    .card-disponible{
+        margin: 5px 0px 5px 0px;
+        font-size: 13px;
+    }
+
+    .about-card-container i {
+        margin: 6px 0px 0px 10px;
+    }
+
+    
+    .list-subjects{
+        margin: 5px 0 15px 15px;
+        padding: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subject{
+        width: 100%;
+        list-style: none;
+       margin: 10px 0 0 0 ;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+
+    }
+
+    .subject a{
+        text-align: center;
+    }
+  }
